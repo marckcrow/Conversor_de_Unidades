@@ -1,0 +1,107 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <!-- Campo para entrada do valor -->
+        <EditText
+            android:id="@+id/valorInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite o valor"
+            android:inputType="numberDecimal" />
+
+        <!-- Seletor da unidade de origem -->
+        <Spinner
+            android:id="@+id/unidadeOrigem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Seletor da unidade de destino -->
+        <Spinner
+            android:id="@+id/unidadeDestino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Botão para converter -->
+        <Button
+            android:id="@+id/btnConverter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@android:color/white"
+            android:text="Converter" />
+
+        <!-- Texto do resultado -->
+        <TextView
+            android:id="@+id/resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado"
+            android:textSize="18sp"
+            android:paddingTop="16dp" />
+
+        <!-- Espaço separador -->
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="12dp"
+            android:contentDescription="Logo da Unifor"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_unifor" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <!-- Rodapé com dados do grupo -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grupo 20 - Curso de ADS"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <!-- Lista de participantes em ordem alfabética -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLOBERTO DE SOUSA GONÇALVES - Matrícula: 2326300" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ISADORA IANNE AGUIAR DE CASTRO PAULA - Matrícula: 2323864" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JONARTA SANTIAGO SOARES - Matrícula: 2327349" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JOSÉ MARCCONDES RODRIGUES DA SILVA JÚNIOR - Matrícula: 2326642" />
+
+        <!-- Logo da Unifor -->
+
+        <!-- Versão -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Versão 2025"
+            android:textStyle="italic"
+            android:paddingTop="8dp"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>
