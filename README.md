@@ -81,9 +81,4 @@ Este projeto é acadêmico e livre para uso educacional.
 Grupo 20 - Curso ADS - UNIFOR
 marcondesjr.ti@gmail.com
 
-```
 
----
-
-Se quiser, posso também gerar esse `README.md` como um arquivo pronto para você subir no GitHub. Deseja?
-```
