@@ -1,8 +1,3 @@
-Claro, Marcondes! Com base no projeto do **Conversor de Unidades**, aqui está um exemplo de `README.md` para seu repositório no GitHub — estruturado para apresentar o app, os participantes e as instruções de uso:
-
----
-
-````markdown
 # 📱 Conversor de Unidades
 
 Aplicativo Android simples desenvolvido para conversão de unidades de medida entre **centímetros**, **metros**, **quilômetros** e **milhas**. O projeto foi desenvolvido como atividade da disciplina de Desenvolvimento para Plataformas Móveis do curso de **Análise e Desenvolvimento de Sistemas - UNIFOR (2025)**.
