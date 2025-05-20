@@ -20,7 +20,9 @@ Permitir ao usuário inserir um valor e converter entre diferentes unidades de m
 
 ## 🖼️ Captura de Tela
 
-*(Adicione uma captura aqui se quiser mostrar como está a interface)*
+![image](https://github.com/user-attachments/assets/d6bf1ae6-6336-496f-909e-5e004072e2bf)
+
+
 
 ---
 
